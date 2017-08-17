@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body {background-color: #87CEEB;}
+
+body header {color: #000000;
+             font-size: 250%;
+             font-family: Bradley Hand;
+             display: inline;
+             }
+
+body nav { float: right;
+           display: inline;
+           
+           }
+
+body button {color: #000000;
+             background-color: #FFFF00;
+             border: 1px solid #000000;
+             display:block;
+             margin:0 auto;
+             text-align: center;
+             padding-top: 40px;
+             padding-right: 80px;
+             padding-bottom: 40px;
+             padding-left: 80px;
+             font-family: Futura;
+             font-size: 300%
+             
+             }
+
+body button:hover {color: #FFFFFF;
+                   text-decoration: underline;}
+
+h1 {font-size: 30pt;
+    text-decoration: underline;}
+
+h2 {font-size: 20pt;}
+
+p {font-size: 120%;}
+
+h3 {text-align: left;
+    font-size: 18pt;
+    text-decoration: underline;}
+
+body img {float:right;
+          padding-left: 30px;
+          padding-right: 5px;
+          width: 350px;
+          height: 280px;}
+
+body footer {font-size: 80%;
+             text-align:center;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+
+body div {box-sizing: border-box;
+    width: 40%;
+     }
+
+body div.boxed {border: 2px solid green;
+                float: left;
+                height: 250px;
+                width: 400px;
+                margin-left: 100px;}
+
+h5 {text-decoration: underline;
+    font-size: 110%}
+
+body div.contacts {border-style: solid;
+                   border-width: 2px;
+                   border-color: red;
+                   float: right;
+                   width: 400px;
+                   height: 180px;
+                   margin-right: 150px;}
+
+
+
